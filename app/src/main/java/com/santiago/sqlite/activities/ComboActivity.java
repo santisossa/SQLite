@@ -52,7 +52,6 @@ public class ComboActivity extends AppCompatActivity {
                     id.setText(usuarioList.get(position-1).getId().toString());
                     nombre.setText(usuarioList.get(position-1).getNombre());
                     telefono.setText(usuarioList.get(position-1).getTelefono());
-
                 }else {
                     id.setText("");
                     nombre.setText("");
