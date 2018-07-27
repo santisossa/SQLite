@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DetalleUsuarioActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="186dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/idDetalle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_user" />
+
+    <TextView
+        android:id="@+id/idDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/nombreDetalle"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/nombreDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/telefonoDetalle"
+        app:layout_constraintStart_toStartOf="@+id/idDetalle"
+        app:layout_constraintTop_toBottomOf="@+id/idDetalle" />
+
+    <TextView
+        android:id="@+id/telefonoDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="148dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/nombreDetalle"
+        app:layout_constraintTop_toBottomOf="@+id/nombreDetalle" />
+</android.support.constraint.ConstraintLayout>

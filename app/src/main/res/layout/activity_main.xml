@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/registrarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="registrar usuario" />
+
+    <Button
+
+        android:layout_marginBottom="15dp"
+        android:id="@+id/registrarMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="registrar Mascota" />
+
+    <Button
+        android:id="@+id/consultarUsuario"
+        android:onClick="onClick"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="consultar usuario"/>
+
+    <Button
+        android:id="@+id/spinnerUsuario"
+        android:layout_width="match_parent"
+        android:onClick="onClick"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:text="listar usuarios spinner" />
+
+    <Button
+        android:id="@+id/listarUsuario"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:text="listar usuarios" />
+
+    <Button
+        android:id="@+id/listarMascota"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="listar Mascotas" />
+</LinearLayout>
