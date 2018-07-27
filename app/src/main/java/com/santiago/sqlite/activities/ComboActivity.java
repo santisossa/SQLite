@@ -32,6 +32,7 @@ public class ComboActivity extends AppCompatActivity {
     ArrayList<Usuario>usuarioList;
     BaseDatos datos;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
