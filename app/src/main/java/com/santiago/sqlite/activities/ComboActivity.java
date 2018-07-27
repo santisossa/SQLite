@@ -42,7 +42,6 @@ public class ComboActivity extends AppCompatActivity {
         datos= new BaseDatos(getApplicationContext(),"usuarios.db",null,1);
         llenarUsuarioList();
 
-
         ArrayAdapter<String> adapter= new ArrayAdapter<>(this,android.R.layout.simple_spinner_item,list);
         spinner.setAdapter(adapter);
 
