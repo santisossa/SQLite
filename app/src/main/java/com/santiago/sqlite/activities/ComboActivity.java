@@ -36,6 +36,7 @@ public class ComboActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_combo);
         ButterKnife.bind(this);
         datos= new BaseDatos(getApplicationContext(),"usuarios.db",null,1);
